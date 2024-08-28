@@ -1,0 +1,77 @@
+body{
+   margin:0px;
+    padding: 0px;
+}
+ul{
+    margin:0px;
+    padding: 0px;
+}
+.my_menuuu{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: purple;
+}
+.menuuu li{
+    list-style: none;
+    width: 200px;
+    height: 50px;
+    background-color:rebeccapurple;
+    margin-left: 10px;
+    text-align:center;
+    line-height: 50px;
+    float: left;
+}
+.menuuu li:hover{
+    background-color: purple;
+}
+.menuuu li a:hover{
+    color: black
+    }
+.menuuu li a{
+    color: white;
+    display: block;
+    text-decoration: none
+}
+.logo{
+    width: 130px;
+}
+.logo_li:hover{
+    background-color: purple;
+}
+.logo_li a{
+    font-size: 25POOpx;
+    background-color: purple
+}
+.logo_li a:hover{
+color: white !important;
+}
+.menuuu ul li {
+    margin: 0px;
+}
+.menuuu ul {
+    display: none;
+}
+.menuuu li:hover ul{
+    display: block;
+}
+/*music*/
+.my_MUSIC{
+    width: 99.5%;
+    height: auto;
+    background-color: lavender;
+    text-align: center;
+    border-style: double;
+    display: inline-block;
+}
+.MUSIC img{
+    width: 50%;
+    height: 515px;
+    float: left;
+}
+.MUSIC h2{
+    font-size: 40px;
+}
+.MUSIC p {
+    font-size: 30px;
+}

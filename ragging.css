@@ -1,0 +1,57 @@
+body{
+   margin:0px;
+    padding: 0px;
+}
+ul{
+    margin:0px;
+    padding: 0px;
+}
+.my_menu{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: purple;
+}
+.menu li{
+    list-style: none;
+    width: 200px;
+    height: 50px;
+    background-color:rebeccapurple;
+    margin-left: 10px;
+    text-align:center;
+    line-height: 50px;
+    float: left;
+}
+.menu li:hover{
+    background-color: purple;
+}
+.menu li a:hover{
+    color: black;
+    }
+.menu li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+.logo{
+    width: 130px;
+}
+.logo_li:hover{
+    background-color: purple;
+}
+.logo_li a{
+    font-size: 25POOpx;
+    background-color: purple;
+}
+.logo_li a:hover{
+color: white !important;
+}
+.menu ul li {
+    margin: 0px;
+}
+.menu ul {
+    display: none;
+}
+.menu li:hover ul{
+    display: block;
+}

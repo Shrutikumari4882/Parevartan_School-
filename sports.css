@@ -1,0 +1,77 @@
+body{
+   margin:0px;
+    padding: 0px;
+}
+ul{
+    margin:0px;
+    padding: 0px;
+}
+.my_menuu{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: purple;
+}
+.menuu li{
+    list-style: none;
+    width: 200px;
+    height: 50px;
+    background-color:rebeccapurple;
+    margin-left: 10px;
+    text-align:center;
+    line-height: 50px;
+    float: left;
+}
+.menuu li:hover{
+    background-color: purple;
+}
+.menuu li a:hover{
+    color: black
+    }
+.menuu li a{
+    color: white;
+    display: block;
+    text-decoration: none
+}
+.logo{
+    width: 130px;
+}
+.logo_li:hover{
+    background-color: purple;
+}
+.logo_li a{
+    font-size: 25POOpx;
+    background-color: purple
+}
+.logo_li a:hover{
+color: white !important;
+}
+.menuu ul li {
+    margin: 0px;
+}
+.menuu ul {
+    display: none;
+}
+.menuu li:hover ul{
+    display: block;
+}
+/*sports*/
+.my_SPORTS{
+    width: 99.5;
+    height: auto;
+    background-color: lavender;
+    text-align: center;
+    border-style: double;
+    display: inline-block;
+    }
+.SPORTS img{
+    width: 50%;
+    height: 512px;
+    float: left;
+}
+.SPORTS h2{
+    font-size: 40px;
+}
+.SPORTS p {
+    font-size: 30px;
+}

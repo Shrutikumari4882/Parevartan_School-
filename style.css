@@ -1,0 +1,165 @@
+body{
+   margin:0px;
+    padding: 0px;
+}
+ul{
+    margin:0px;
+    padding: 0px;
+}
+.my_menu{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: purple;
+}
+.menu li{
+    list-style: none;
+    width: 200px;
+    height: 50px;
+    background-color:rebeccapurple;
+    margin-left: 10px;
+    text-align:center;
+    line-height: 50px;
+    float: left;
+}
+.menu li:hover{
+    background-color: purple;
+}
+.menu li a:hover{
+    color: black
+    }
+.menu li a{
+    color: white;
+    display: block;
+    text-decoration: none
+}
+.logo{
+    width: 130px;
+}
+.logo_li:hover{
+    background-color: purple;
+}
+.logo_li a{
+    font-size: 25POOpx;
+    background-color: purple
+}
+.logo_li a:hover{
+color: white !important;
+}
+.menu ul li {
+    margin: 0px;
+}
+.menu ul {
+    display: none;
+}
+.menu li:hover ul{
+    display: block;
+}
+
+/*banner*/
+#banner{
+    width: 100%;
+}
+#banner img{
+    margin-top: 50px;
+    width:100%;
+}  
+
+/*why_choose*/
+#why_choose{
+    width: 100%;
+    text-align: center;
+}
+#why_choose h1{
+    margin: 0 auto;
+    width: 300px;
+    font-size: 30px;
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.div_section1{
+    width: 20%;
+    height: 300px;
+    margin: 30px;
+    float: left;
+}
+.icon{
+    width: 120px;
+    height: 80px;
+    border: 1px solid black;
+    margin: 10px auto;
+    line-height: 80px;
+    font-size: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 200px;
+    transition-duration: 0.3s;
+}
+.icon:hover{
+    font-size: 40px;
+}
+
+/*section2*/
+.section2{
+    display: inline-block;
+         width: 100%;
+    text-align: center;    
+}
+.div_section2 h1{
+    margin: 0 auto;
+    width: 400px;
+    font-size: 40px;
+    color: black;
+    border-bottom: 2px solid black;   
+}
+.div_section2{
+    
+    width: 30%;
+    height: 300px;
+    margin: 20px;
+    float: left;
+}
+.div_section2 img{
+    width:100%;
+}
+
+/*section3*/
+.section3{
+    display: inline-block;
+    width: 100%;
+}
+.section3 h1{
+    margin:0 px;
+    width: 1300px;
+    font-size: 1000vpx;
+    color: black;
+    border-bottom: 2px solid black; 
+}
+.div_section3 h2{
+    margin: 0 auto;
+    width: 400px;
+    font-size: 30px;
+    color: black;
+    border-bottom: 1px solid black;   
+}
+.div_section3 h3{
+    margin: 0 auto;
+    width: 400px;
+    font-size: 20px;
+    color: black;
+    border-bottom: 1px solid black;   
+}
+.div_section3{
+     width: 30%;
+    height: 300px;
+    margin: 20px;
+    float: left;
+    margin-bottom: 80px;
+}
+.div_section3 img{
+ width: 100%;
+    height: 100%;
+    margin-top: 0 auto;
+    margin-bottom: 0 auto;
+}
